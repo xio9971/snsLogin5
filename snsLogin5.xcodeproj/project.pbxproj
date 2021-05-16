@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		986E82DC264C974200219B5A /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E82DB264C974200219B5A /* KakaoOpenSDK.framework */; };
+		987F16EC264B9A01004E3095 /* SNSLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F16EB264B9A01004E3095 /* SNSLogin.swift */; };
+		987F16EE264B9A59004E3095 /* SNSLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F16ED264B9A59004E3095 /* SNSLoginHelper.swift */; };
+		987F16F0264B9AFD004E3095 /* IndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F16EF264B9AFD004E3095 /* IndicatorButton.swift */; };
+		98FBF8C4264B97ED00843C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBF8C3264B97ED00843C1F /* AppDelegate.swift */; };
+		98FBF8C6264B97ED00843C1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBF8C5264B97ED00843C1F /* SceneDelegate.swift */; };
+		98FBF8C8264B97ED00843C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBF8C7264B97ED00843C1F /* ViewController.swift */; };
+		98FBF8CB264B97ED00843C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FBF8C9264B97ED00843C1F /* Main.storyboard */; };
+		98FBF8CD264B97EE00843C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FBF8CC264B97EE00843C1F /* Assets.xcassets */; };
+		98FBF8D0264B97EE00843C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FBF8CE264B97EE00843C1F /* LaunchScreen.storyboard */; };
+		CF4A337AA4C7A470CA63DF99 /* Pods_snsLogin5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB361160A54126DE32F24228 /* Pods_snsLogin5.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9121577A8CA1155222AF22F9 /* Pods-snsLogin5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snsLogin5.release.xcconfig"; path = "Target Support Files/Pods-snsLogin5/Pods-snsLogin5.release.xcconfig"; sourceTree = "<group>"; };
+		986E82DB264C974200219B5A /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		986E82DE264C981800219B5A /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		987F16EB264B9A01004E3095 /* SNSLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLogin.swift; sourceTree = "<group>"; };
+		987F16ED264B9A59004E3095 /* SNSLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginHelper.swift; sourceTree = "<group>"; };
+		987F16EF264B9AFD004E3095 /* IndicatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorButton.swift; sourceTree = "<group>"; };
+		98CB6F7C264CC2CF004E319D /* snsLogin5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snsLogin5.entitlements; sourceTree = "<group>"; };
+		98FBF8C0264B97ED00843C1F /* snsLogin5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snsLogin5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FBF8C3264B97ED00843C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98FBF8C5264B97ED00843C1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98FBF8C7264B97ED00843C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98FBF8CA264B97ED00843C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FBF8CC264B97EE00843C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FBF8CF264B97EE00843C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98FBF8D1264B97EE00843C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7AAF6E8A9DFD7D16199D30 /* Pods-snsLogin5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snsLogin5.debug.xcconfig"; path = "Target Support Files/Pods-snsLogin5/Pods-snsLogin5.debug.xcconfig"; sourceTree = "<group>"; };
+		FB361160A54126DE32F24228 /* Pods_snsLogin5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snsLogin5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FBF8BD264B97ED00843C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4A337AA4C7A470CA63DF99 /* Pods_snsLogin5.framework in Frameworks */,
+				986E82DC264C974200219B5A /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47ED2B052EFAAAFD2AE1FC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D7AAF6E8A9DFD7D16199D30 /* Pods-snsLogin5.debug.xcconfig */,
+				9121577A8CA1155222AF22F9 /* Pods-snsLogin5.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98FBF8B7264B97ED00843C1F = {
+			isa = PBXGroup;
+			children = (
+				986E82DE264C981800219B5A /* KakaoOpenSDK-Bridging-Header.h */,
+				98FBF8C2264B97ED00843C1F /* snsLogin5 */,
+				98FBF8C1264B97ED00843C1F /* Products */,
+				47ED2B052EFAAAFD2AE1FC2C /* Pods */,
+				A9978BFE606546BC92C19656 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98FBF8C1264B97ED00843C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FBF8C0264B97ED00843C1F /* snsLogin5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FBF8C2264B97ED00843C1F /* snsLogin5 */ = {
+			isa = PBXGroup;
+			children = (
+				98CB6F7C264CC2CF004E319D /* snsLogin5.entitlements */,
+				98FBF8C3264B97ED00843C1F /* AppDelegate.swift */,
+				98FBF8C5264B97ED00843C1F /* SceneDelegate.swift */,
+				98FBF8C7264B97ED00843C1F /* ViewController.swift */,
+				987F16EB264B9A01004E3095 /* SNSLogin.swift */,
+				987F16ED264B9A59004E3095 /* SNSLoginHelper.swift */,
+				987F16EF264B9AFD004E3095 /* IndicatorButton.swift */,
+				98FBF8C9264B97ED00843C1F /* Main.storyboard */,
+				98FBF8CC264B97EE00843C1F /* Assets.xcassets */,
+				98FBF8CE264B97EE00843C1F /* LaunchScreen.storyboard */,
+				98FBF8D1264B97EE00843C1F /* Info.plist */,
+			);
+			path = snsLogin5;
+			sourceTree = "<group>";
+		};
+		A9978BFE606546BC92C19656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986E82DB264C974200219B5A /* KakaoOpenSDK.framework */,
+				FB361160A54126DE32F24228 /* Pods_snsLogin5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FBF8BF264B97ED00843C1F /* snsLogin5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FBF8D4264B97EE00843C1F /* Build configuration list for PBXNativeTarget "snsLogin5" */;
+			buildPhases = (
+				142585084C5AE18B6D5721B6 /* [CP] Check Pods Manifest.lock */,
+				98FBF8BC264B97ED00843C1F /* Sources */,
+				98FBF8BD264B97ED00843C1F /* Frameworks */,
+				98FBF8BE264B97ED00843C1F /* Resources */,
+				033BAD47ACC11C28163D8040 /* [CP] Embed Pods Frameworks */,
+				56793C5C90BFEFBFCECE39EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snsLogin5;
+			productName = snsLogin5;
+			productReference = 98FBF8C0264B97ED00843C1F /* snsLogin5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FBF8B8264B97ED00843C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					98FBF8BF264B97ED00843C1F = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 98FBF8BB264B97ED00843C1F /* Build configuration list for PBXProject "snsLogin5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FBF8B7264B97ED00843C1F;
+			productRefGroup = 98FBF8C1264B97ED00843C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FBF8BF264B97ED00843C1F /* snsLogin5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FBF8BE264B97ED00843C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FBF8D0264B97EE00843C1F /* LaunchScreen.storyboard in Resources */,
+				98FBF8CD264B97EE00843C1F /* Assets.xcassets in Resources */,
+				98FBF8CB264B97ED00843C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033BAD47ACC11C28163D8040 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		142585084C5AE18B6D5721B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snsLogin5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56793C5C90BFEFBFCECE39EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snsLogin5/Pods-snsLogin5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FBF8BC264B97ED00843C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FBF8C8264B97ED00843C1F /* ViewController.swift in Sources */,
+				98FBF8C4264B97ED00843C1F /* AppDelegate.swift in Sources */,
+				987F16EC264B9A01004E3095 /* SNSLogin.swift in Sources */,
+				98FBF8C6264B97ED00843C1F /* SceneDelegate.swift in Sources */,
+				987F16EE264B9A59004E3095 /* SNSLoginHelper.swift in Sources */,
+				987F16F0264B9AFD004E3095 /* IndicatorButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98FBF8C9264B97ED00843C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FBF8CA264B97ED00843C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98FBF8CE264B97EE00843C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FBF8CF264B97EE00843C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FBF8D2264B97EE00843C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98FBF8D3264B97EE00843C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FBF8D5264B97EE00843C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7AAF6E8A9DFD7D16199D30 /* Pods-snsLogin5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = snsLogin5/snsLogin5.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCRHX8TKM2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = snsLogin5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"KakaoSDKAuth\"",
+					"-framework",
+					"\"KakaoSDKCommon\"",
+					"-framework",
+					"\"KakaoSDKUser\"",
+					"-weak_framework",
+					"\"Accelerate\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"StoreKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.snsLogin5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98FBF8D6264B97EE00843C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9121577A8CA1155222AF22F9 /* Pods-snsLogin5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = snsLogin5/snsLogin5.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCRHX8TKM2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = snsLogin5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"KakaoSDKAuth\"",
+					"-framework",
+					"\"KakaoSDKCommon\"",
+					"-framework",
+					"\"KakaoSDKUser\"",
+					"-weak_framework",
+					"\"Accelerate\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"StoreKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = will.snsLogin5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KakaoOpenSDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FBF8BB264B97ED00843C1F /* Build configuration list for PBXProject "snsLogin5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FBF8D2264B97EE00843C1F /* Debug */,
+				98FBF8D3264B97EE00843C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FBF8D4264B97EE00843C1F /* Build configuration list for PBXNativeTarget "snsLogin5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FBF8D5264B97EE00843C1F /* Debug */,
+				98FBF8D6264B97EE00843C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FBF8B8264B97ED00843C1F /* Project object */;
+}

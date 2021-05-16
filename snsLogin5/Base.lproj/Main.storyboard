@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="snsLogin5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9ON-eN-ueo">
+                                <rect key="frame" x="0.0" y="544" width="414" height="288"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgk-B6-Co0" customClass="IndicatorButton" customModule="snsLogin5" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="57.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="facebookTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsp-9k-znC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJW-m3-tao" customClass="IndicatorButton" customModule="snsLogin5" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="57.5" width="414" height="57.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="kakaoTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZD-ci-Gbr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFG-ej-msh" customClass="IndicatorButton" customModule="snsLogin5" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="115" width="414" height="58"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="googleTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ysr-eB-KFR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g17-i3-EfA" customClass="IndicatorButton" customModule="snsLogin5" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="173" width="414" height="57.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="naverTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lS1-QE-Wyd"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rep-JI-t1H">
+                                        <rect key="frame" x="0.0" y="230.5" width="414" height="57.5"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqJ-V6-QQM">
+                                <rect key="frame" x="20" y="104" width="40.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guG-sx-ovX">
+                                <rect key="frame" x="80.5" y="104" width="313.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIW-Zt-Eub">
+                                <rect key="frame" x="20" y="154.5" width="42.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHp-nF-jfq">
+                                <rect key="frame" x="82.5" y="154.5" width="311.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HHp-nF-jfq" firstAttribute="top" secondItem="guG-sx-ovX" secondAttribute="bottom" constant="30" id="0VF-MT-0Eb"/>
+                            <constraint firstItem="ZqJ-V6-QQM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="1Dj-wc-caw"/>
+                            <constraint firstItem="9ON-eN-ueo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4UQ-hm-wk9"/>
+                            <constraint firstItem="9ON-eN-ueo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="500" id="BfV-lW-HA9"/>
+                            <constraint firstItem="guG-sx-ovX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="N4w-SZ-Tdj"/>
+                            <constraint firstItem="aIW-Zt-Eub" firstAttribute="top" secondItem="ZqJ-V6-QQM" secondAttribute="bottom" constant="30" id="TQM-ri-8MX"/>
+                            <constraint firstItem="guG-sx-ovX" firstAttribute="leading" secondItem="ZqJ-V6-QQM" secondAttribute="trailing" constant="20" id="TUe-Dd-VTs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HHp-nF-jfq" secondAttribute="trailing" constant="20" id="V07-nW-fRQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9ON-eN-ueo" secondAttribute="bottom" constant="30" id="WUY-y9-lhh"/>
+                            <constraint firstItem="ZqJ-V6-QQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bMT-wF-Ui7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9ON-eN-ueo" secondAttribute="trailing" id="fiH-i1-eRy"/>
+                            <constraint firstItem="aIW-Zt-Eub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sNF-Is-1pu"/>
+                            <constraint firstItem="HHp-nF-jfq" firstAttribute="leading" secondItem="aIW-Zt-Eub" secondAttribute="trailing" constant="20" id="uH9-ae-TEU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="guG-sx-ovX" secondAttribute="trailing" constant="20" id="zHt-og-AE2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="guG-sx-ovX" id="pdC-y9-Pz0"/>
+                        <outlet property="facebookButton" destination="Pgk-B6-Co0" id="M51-Np-V05"/>
+                        <outlet property="googleButton" destination="UFG-ej-msh" id="jPc-Pa-w4O"/>
+                        <outlet property="kakaoButton" destination="eJW-m3-tao" id="amP-N5-ish"/>
+                        <outlet property="loginProviderStackView" destination="rep-JI-t1H" id="Otq-lM-QVf"/>
+                        <outlet property="nameLabel" destination="HHp-nF-jfq" id="jkp-3H-2be"/>
+                        <outlet property="naverButton" destination="g17-i3-EfA" id="19k-Oh-jOS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="94.419642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
